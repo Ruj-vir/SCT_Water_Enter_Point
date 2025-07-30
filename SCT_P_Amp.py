@@ -138,10 +138,3 @@ if uploaded_files:
 
         # 👉 ตรงนี้ไม่ต้องใช้ API แล้ว
         # สามารถคอมเมนต์หรือเอาออกทั้งหมด
-
-        st.success("Complete.")
-        st.markdown("""
-        <a href="http://localhost:8081/image" target="_blank" style="font-size:20px;color:#00A86B;">
-        Detect Result
-        </a>
-        """, unsafe_allow_html=True)
