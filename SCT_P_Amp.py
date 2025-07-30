@@ -5,6 +5,9 @@ import base64
 import math
 import requests
 
+# --- ตั้งค่า ---
+st.set_page_config(page_title="Water Entry Point", layout="centered")
+
 # function สำหรับแปลงภาพเป็น base64
 def img_to_base64(img_file_path):
     with open(img_file_path, "rb") as f:
